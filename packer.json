@@ -1,0 +1,11 @@
+{
+  "type": "virtualbox-iso",
+  "guest_os_type": "Windows2016_64",
+  "iso_url": "~/Downloads/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
+  "iso_checksum": "769474248a3897f4865817446f9a4a53",
+  "iso_checksum_type": "md5",
+  "ssh_username": "packer",
+  "ssh_password": "packer",
+  "shutdown_command": "echo 'packer' | sudo -S shutdown -P now"
+}
+
