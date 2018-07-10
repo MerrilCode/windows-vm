@@ -6,6 +6,7 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|
-  config.vm.box = "mwrock/Windows2016"
+  # config.vm.box = "mwrock/Windows2016"
+  config.vm.box = "jacqinthebox/windowsserver2016"
   config.vm.provision "shell", path: "scripts/provision.ps1", privileged: true
 end
