@@ -4,3 +4,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 #  install -channel current -project chefdk
 choco install sublimetext2 -y
+
